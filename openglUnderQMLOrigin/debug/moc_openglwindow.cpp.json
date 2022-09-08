@@ -1,0 +1,33 @@
+{
+    "classes": [
+        {
+            "className": "OpenGLWindow",
+            "object": true,
+            "qualifiedClassName": "OpenGLWindow",
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "renderLater",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "renderNow",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindow"
+                },
+                {
+                    "access": "protected",
+                    "name": "QOpenGLFunctions"
+                }
+            ]
+        }
+    ],
+    "inputFile": "openglwindow.h",
+    "outputRevision": 67
+}

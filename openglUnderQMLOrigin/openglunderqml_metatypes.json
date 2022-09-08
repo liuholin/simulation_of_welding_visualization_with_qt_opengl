@@ -1,0 +1,99 @@
+[
+    {
+        "classes": [
+            {
+                "className": "SquircleRenderer",
+                "object": true,
+                "qualifiedClassName": "SquircleRenderer",
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "init",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "paint",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    },
+                    {
+                        "access": "protected",
+                        "name": "QOpenGLFunctions"
+                    }
+                ]
+            },
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "Squircle",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "t",
+                        "notify": "tChanged",
+                        "read": "t",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qreal",
+                        "user": false,
+                        "write": "setT"
+                    }
+                ],
+                "qualifiedClassName": "Squircle",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "tChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "sync",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "cleanup",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "win",
+                                "type": "QQuickWindow*"
+                            }
+                        ],
+                        "name": "handleWindowChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "squircle.h",
+        "outputRevision": 68
+    }
+]
