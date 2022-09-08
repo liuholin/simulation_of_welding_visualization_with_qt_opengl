@@ -5,12 +5,10 @@
 
 </br>
 ##  simulation of welding under opengl ##
-<img src = "/images/openglWindow.png" with="800" height="1000"/>
-
+![image](/images/openglWindow.png)
 </br>
 ##  simulation of welding using QML ##
-<img src = "/images/openglUnderQMLOrigin.png" with="800" height="1000"/>
-
+![image](/images/openglUnderQMLOrigin.png)
 </br>
-##  simulation of welding using QML and add some details##
-<img src = "/images/openglUnderQML.png" with="800" height="1000"/>
+##  simulation of welding using QML and add some details ##
+![image](/images/openglUnderQML.png)
