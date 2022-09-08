@@ -3,12 +3,9 @@
 ## simple simulation of welding ##
 ![image](/images/auto-welding-visualization-pics.png)
 
-</br>
 ##  simulation of welding under opengl ##
 ![image](/images/openglWindow.png)
-</br>
 ##  simulation of welding using QML ##
 ![image](/images/openglUnderQMLOrigin.png)
-</br>
 ##  simulation of welding using QML and add some details ##
 ![image](/images/openglUnderQML.png)
